@@ -7,6 +7,9 @@ author:         Elad
 executable TimeMachineStore
   hs-source-dirs:  src
   main-is:         Main.hs
-  build-depends:   base >= 4
+  build-depends:   
+                   base >= 4,
+                   containers >=0.5 && <0.6,
+                   persistent >=2.1 && <2.2
   ghc-options:     -Wall
 
